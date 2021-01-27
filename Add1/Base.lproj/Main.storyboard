@@ -109,6 +109,12 @@ QWRkIDEgdG8gZWFjaCBvZiB0aGUgZGlnaXRzLiADA+KAqFNvLCAxMzU3IGJlY29tZXMgMjQ2OA
                             <constraint firstAttribute="trailing" secondItem="tt1-QL-mZd" secondAttribute="trailing" constant="20" id="wSP-fK-3D9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inputField" destination="KWr-ml-qVF" id="4nO-2D-lqR"/>
+                        <outlet property="numberLabel" destination="qmA-9Y-hCJ" id="hZX-bF-Xud"/>
+                        <outlet property="scoreLabel" destination="8JK-aI-IZ1" id="R3N-pJ-FDd"/>
+                        <outlet property="timeLabel" destination="qed-Ev-HZF" id="a92-5P-b4p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

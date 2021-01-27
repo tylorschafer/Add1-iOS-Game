@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B91624C025C21DFB000D707C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91624BF25C21DFB000D707C /* AppDelegate.swift */; };
 		B91624C225C21DFB000D707C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91624C125C21DFB000D707C /* SceneDelegate.swift */; };
-		B91624C425C21DFB000D707C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91624C325C21DFB000D707C /* ViewController.swift */; };
+		B91624C425C21DFB000D707C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91624C325C21DFB000D707C /* GameViewController.swift */; };
 		B91624C725C21DFB000D707C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91624C525C21DFB000D707C /* Main.storyboard */; };
 		B91624C925C21E06000D707C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91624C825C21E06000D707C /* Assets.xcassets */; };
 		B91624CC25C21E06000D707C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91624CA25C21E06000D707C /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		B91624BC25C21DFB000D707C /* Add1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Add1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91624BF25C21DFB000D707C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B91624C125C21DFB000D707C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B91624C325C21DFB000D707C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B91624C325C21DFB000D707C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B91624C625C21DFB000D707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B91624C825C21E06000D707C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91624CB25C21E06000D707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,7 @@
 		B91624DD25C21E06000D707C /* Add1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Add1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91624E125C21E06000D707C /* Add1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add1UITests.swift; sourceTree = "<group>"; };
 		B91624E325C21E06000D707C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91624F825C222D6000D707C /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +102,12 @@
 			children = (
 				B91624BF25C21DFB000D707C /* AppDelegate.swift */,
 				B91624C125C21DFB000D707C /* SceneDelegate.swift */,
-				B91624C325C21DFB000D707C /* ViewController.swift */,
+				B91624C325C21DFB000D707C /* GameViewController.swift */,
 				B91624C525C21DFB000D707C /* Main.storyboard */,
 				B91624C825C21E06000D707C /* Assets.xcassets */,
 				B91624CA25C21E06000D707C /* LaunchScreen.storyboard */,
 				B91624CD25C21E06000D707C /* Info.plist */,
+				B91624F825C222D6000D707C /* HVD_Comic_Serif_Pro.otf */,
 			);
 			path = Add1;
 			sourceTree = "<group>";
@@ -258,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91624C425C21DFB000D707C /* ViewController.swift in Sources */,
+				B91624C425C21DFB000D707C /* GameViewController.swift in Sources */,
 				B91624C025C21DFB000D707C /* AppDelegate.swift in Sources */,
 				B91624C225C21DFB000D707C /* SceneDelegate.swift in Sources */,
 			);
